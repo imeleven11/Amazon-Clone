@@ -116,3 +116,9 @@ span{
     font-size: 0.90rem;
     font-weight: 700;
 }
+/* hero section */
+.hero-section{
+    background-image: url(pictures/hero.jpg);
+    height: 600px;
+    background-size: cover;
+}
