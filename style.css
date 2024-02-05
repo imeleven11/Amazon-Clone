@@ -110,7 +110,7 @@ span{
 }
 .panel-ops{
     width: 70%;
-    font-size: 0.82rem;
+    font-size: 0.90rem;
 }
 .panel-deal{
     font-size: 0.90rem;
@@ -122,7 +122,82 @@ span{
     height: 600px;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
 .content{
-    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: rgb(252, 212,236); */
 }
+.box{
+    border: none;
+    height: 280px;
+    width: 31%;
+    background-color: rgb(240, 240, 240);
+    margin-top: 250px;
+    padding: 20px 0px 15px;
+    font-size: 0.90rem;
+}
+.box-image{
+    height: 200px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: rgb(0, 123, 255);
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+.box2{
+    border: none;
+    height: 280px;
+    width: 31%;
+    background-color: rgb(240, 240, 240);
+    margin-top: 50px;
+    padding: 20px 0px 15px;
+    font-size: 0.90rem;
+}
+.box2-image{
+    height: 200px;
+    background-size: cover;
+}
+.box2-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box2-content p{
+    color: rgb(0, 123, 255);
+    font-size: 0.75rem;
+    margin-top: 10px;
+}
+.foot1{
+    margin-top: 350px;
+    background-color: #37475a;
+    color: white;
+    height: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.foot2{
+    background-color: #222f3d;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+ul{
+    margin-top: 15px;
+}
+
+    
