@@ -121,4 +121,8 @@ span{
     background-image: url(pictures/hero.jpg);
     height: 600px;
     background-size: cover;
+    background-position: center;
+}
+.content{
+    
 }
