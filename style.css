@@ -199,5 +199,61 @@ ul a{
 ul{
     margin-top: 15px;
 }
-
+@media screen and (max-width: 900px) {
+    .content .content-image {
+      padding-left: 0;
+    }
+    .hid {
+      display: none;
+    }
+  
+    .search-box {
+      width: 70%;
+    }
+  
+    .select-box select {
+      font-size: 0.75rem;
+    }
+  
+    .search-input input {
+      font-size: 0.8rem;
+    }
+  
+    .search-icon {
+      font-size: 0.9rem;
+    }
+    .gallery-four-image {
+      grid-template-columns: repeat(2, 165px);
+    }
+  
+    main .hero-section {
+      height: 2450px;
+    }
+  
+    .footer-middle-section .items {
+      flex-direction: column;
+    }
+  
+    .footer-first-shortcut-links {
+      align-items: flex-start;
+    }
+  
+    .footer-first-shortcut-links div {
+      margin-bottom: 40px;
+      padding: 8px;
+      
+      
+    }
+   
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+    main .content {
+      height: 4170px;
+    }
+    .ba{
+     display: none;
+    }
+  }
     
